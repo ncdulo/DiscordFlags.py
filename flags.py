@@ -17,7 +17,7 @@ unknown_15 = 1<<15
 unknown_16 = 1<<16
 unknown_17 = 1<<17
 #all current flags defined here
-def flagsfromint(flags)
+def flagsfromint(flags):
     if flags.isnumeric():
         flags = int(flags)
         flaglist=[]
